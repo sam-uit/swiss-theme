@@ -44,6 +44,7 @@ html, body, .typora-export {
   background: var(--card);
   border-left: 5px solid var(--accent);
   border-bottom: 1px solid var(--line);
+  border-radius: 2px;
 }
 
 #write h2 {
@@ -105,6 +106,7 @@ html, body, .typora-export {
 #write hr {
   border: 0;
   border-top: 1px solid var(--line);
+  border-radius: 2px;
   margin: 1.35em 0 1.5em;
 }
 
@@ -112,6 +114,7 @@ html, body, .typora-export {
 #write ul, #write ol {
   background: var(--card);
   border: 1px solid #80372b;
+  border-radius: 2px;
   border-left: 4px solid #80372b;
   padding: 14px 18px 12px 34px;
   margin: 0.75em 0 1.1em;
@@ -140,6 +143,7 @@ html, body, .typora-export {
 #write blockquote {
   background: var(--card);
   border: 1px solid #80372b;
+  border-radius: 2px;
   margin: 1.1em 0 1.4em;
   padding: 14px 18px;
   color: var(--muted);
@@ -176,6 +180,7 @@ html, body, .typora-export {
 #write > p {
   background: var(--card);
   border: 1px solid #80372b;
+  border-radius: 2px;
   padding: 16px 18px;
   margin-top: 0.75em;
   margin-bottom: 0;
@@ -185,6 +190,7 @@ html, body, .typora-export {
   background: var(--card);
   border: 1px solid #80372b;
   border-top: 0;
+  border-radius: 2px;
   padding-top: 4px;
   padding-bottom: 16px;
   padding-left: 18px;
@@ -197,6 +203,7 @@ html, body, .typora-export {
 #write > table {
   background: var(--card);
   border: 1px solid #80372b;
+  border-radius: 2px;
   margin-top: 0.75em;
 }
 
@@ -204,6 +211,7 @@ html, body, .typora-export {
   background: var(--tag-bg);
   color: var(--accent);
   border: 1px solid var(--line);
+  border-radius: 2px;
   padding: 0.05em 0.35em;
 }
 
@@ -243,6 +251,7 @@ html, body, .typora-export {
 .code-tooltip {
   box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
   border-top: 1px solid #eef2f2;
+  border-radius: 2px;
 }
 
 #write .md-fences,
@@ -252,6 +261,7 @@ html, body, .typora-export {
 .typora-export code,
 .typora-export tt {
   border: 1px solid var(--line);
+  border-radius: 2px;
   background-color: #ffffff;
   border-radius: 0;
   padding: 0;
