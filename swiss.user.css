@@ -7,12 +7,16 @@
   --muted: #80372b;
   --tag-bg: #fffaf6;
   --corner: 4px;
+  --monospace: "Iosevka";
+}
+
 }
 
 html, body, .typora-export { 
   background: var(--bg) !important; 
   color: var(--text); 
   -webkit-font-smoothing: antialiased; /* 让字体渲染更平滑锐利 */
+  --monospace: "Iosevka";
 }
 
 #write {
