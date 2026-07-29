@@ -10,6 +10,10 @@
   --monospace: "Iosevka";
 }
 
+#typora-source {
+  font-family: "Iosevka";
+  font-size: inherit;
+  --monospace: "Iosevka";
 }
 
 html, body, .typora-export { 
