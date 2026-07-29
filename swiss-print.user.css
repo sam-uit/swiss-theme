@@ -17,7 +17,7 @@
 }
 
 html, body, .typora-export { 
-  background: var(--bg) !important; 
+  background: var(--card) !important; 
   color: var(--text); 
   -webkit-font-smoothing: antialiased; /* 让字体渲染更平滑锐利 */
   --monospace: "Iosevka";
