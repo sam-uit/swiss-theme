@@ -6,6 +6,7 @@
   --line: #e8ddd2;
   --muted: #80372b;
   --tag-bg: #fffaf6;
+  --corner: 4px;
 }
 
 html, body, .typora-export { 
@@ -45,6 +46,7 @@ html, body, .typora-export {
   border-left: 5px solid var(--accent);
   border-bottom: 1px solid var(--line);
   border-radius: 2px;
+  border-radius: var(--corner);
 }
 
 #write h2 {
@@ -106,7 +108,7 @@ html, body, .typora-export {
 #write hr {
   border: 0;
   border-top: 1px solid var(--line);
-  border-radius: 2px;
+  border-radius: var(--corner);
   margin: 1.35em 0 1.5em;
 }
 
@@ -114,8 +116,8 @@ html, body, .typora-export {
 #write ul, #write ol {
   background: var(--card);
   border: 1px solid #80372b;
-  border-radius: 2px;
-  border-left: 4px solid #80372b;
+  border-radius: var(--corner);
+  border-left: 2px solid #80372b;
   padding: 14px 18px 12px 34px;
   margin: 0.75em 0 1.1em;
   line-height: 1.5;
@@ -143,7 +145,7 @@ html, body, .typora-export {
 #write blockquote {
   background: var(--card);
   border: 1px solid #80372b;
-  border-radius: 2px;
+  border-radius: var(--corner);
   margin: 1.1em 0 1.4em;
   padding: 14px 18px;
   color: var(--muted);
@@ -180,7 +182,7 @@ html, body, .typora-export {
 #write > p {
   background: var(--card);
   border: 1px solid #80372b;
-  border-radius: 2px;
+  border-radius: var(--corner);
   padding: 16px 18px;
   margin-top: 0.75em;
   margin-bottom: 0;
@@ -190,7 +192,7 @@ html, body, .typora-export {
   background: var(--card);
   border: 1px solid #80372b;
   border-top: 0;
-  border-radius: 2px;
+  border-radius: var(--corner);
   padding-top: 4px;
   padding-bottom: 16px;
   padding-left: 18px;
@@ -203,7 +205,7 @@ html, body, .typora-export {
 #write > table {
   background: var(--card);
   border: 1px solid #80372b;
-  border-radius: 2px;
+  border-radius: var(--corner);
   margin-top: 0.75em;
 }
 
@@ -211,7 +213,7 @@ html, body, .typora-export {
   background: var(--tag-bg);
   color: var(--accent);
   border: 1px solid var(--line);
-  border-radius: 2px;
+  border-radius: var(--corner);
   padding: 0.05em 0.35em;
 }
 
@@ -251,7 +253,7 @@ html, body, .typora-export {
 .code-tooltip {
   box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
   border-top: 1px solid #eef2f2;
-  border-radius: 2px;
+  border-radius: var(--corner);
 }
 
 #write .md-fences,
@@ -261,13 +263,12 @@ html, body, .typora-export {
 .typora-export code,
 .typora-export tt {
   border: 1px solid var(--line);
-  border-radius: 2px;
   background-color: #ffffff;
-  border-radius: 0;
+  border-radius: var(--corner);
   padding: 0;
   padding: 2px 4px 0 4px;
   font-size: 0.9em;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-family: "Iosevka", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   color: #24292f;
 }
 
@@ -298,7 +299,7 @@ html, body, .typora-export {
   line-height: 1.45;
   background-color: #f7f7f7;
   border: 0;
-  border-radius: 0;
+  border-radius: var(--corner);
   color: #777777;
   margin-top: 0 !important;
 }
