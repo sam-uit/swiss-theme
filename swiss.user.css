@@ -70,11 +70,7 @@ html, body, .typora-export {
 }
 
 #write h2::after {
-  content: "";
-  flex: 1 1 auto;
-  height: 2px;
-  background: #80372b;
-  opacity: 0.8;
+  display: none;
 }
 
 #write h3 {
