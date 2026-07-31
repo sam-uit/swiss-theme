@@ -59,33 +59,29 @@ html, body, .typora-export {
 }
 
 #write h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
   margin-top: 1.3em;
   padding: 0;
   background: transparent;
   border: 0;
-  display: flex;
+  display: inherit;
   align-items: center;
-  gap: 18px;
+  gap: 0px;
 }
 
 #write h2::after {
-  content: "";
-  flex: 1 1 auto;
-  height: 2px;
-  background: #80372b;
-  opacity: 0.8;
+  display: none;
 }
 
 #write h3 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   margin-top: 1em;
   padding: 0;
   background: transparent;
   border: 0;
-  display: flex;
+  display: inherit;
   align-items: center;
-  gap: 16px;
+  gap: 0px;
 }
 
 #write h4,
@@ -94,9 +90,9 @@ html, body, .typora-export {
   padding: 0;
   background: transparent;
   border: 0;
-  display: flex;
+  display: inherit;
   align-items: center;
-  gap: 14px;
+  gap: 0px;
 }
 
 #write p {
